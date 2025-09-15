@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function ResultCard({ result }) {
+    return (_jsx("div", { className: "mt-6 p-4 rounded-lg bg-gray-50 border", children: _jsxs("div", { className: "grid grid-cols-3 gap-4 text-center", children: [_jsxs("div", { children: [_jsx("div", { className: "text-4xl font-extrabold", children: result.years }), _jsx("div", { className: "text-sm text-gray-500", children: "years" })] }), _jsxs("div", { children: [_jsx("div", { className: "text-4xl font-extrabold", children: result.months }), _jsx("div", { className: "text-sm text-gray-500", children: "months" })] }), _jsxs("div", { children: [_jsx("div", { className: "text-4xl font-extrabold", children: result.days }), _jsx("div", { className: "text-sm text-gray-500", children: "days" })] })] }) }));
+}
